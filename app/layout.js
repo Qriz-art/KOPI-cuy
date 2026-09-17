@@ -41,6 +41,7 @@ export const metadata = {
     "coffee shop",
     "es kopi susu",
     "tempat nongkrong",
+    "tempat untuk ketenangan",
     "reservasi meja cafe",
     "rizkiashari",
   ],
