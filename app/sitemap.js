@@ -1,6 +1,5 @@
 import { menuItems } from "@/data/menu";
-
-const siteUrl = "https://kopicuy.example";
+import { siteUrl } from "@/lib/site";
 
 export default function sitemap() {
   const now = new Date();
