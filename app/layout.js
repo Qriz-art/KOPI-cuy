@@ -23,7 +23,7 @@ const bodyFont = Plus_Jakarta_Sans({
   variable: "--font-body-face",
 });
 
-const siteUrl = "https://kopicuy.example";
+const siteUrl = "https://kopi-cuy.vercel.app";
 const shareImage = "/cafe.jpg";
 
 export const metadata = {
@@ -59,8 +59,8 @@ export const metadata = {
     images: [
       {
         url: shareImage,
-        width: 1200,
-        height: 630,
+        width: 2278,
+        height: 1280,
         alt: "Suasana kedai Kopi Cuy",
       },
     ],

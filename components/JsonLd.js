@@ -1,5 +1,4 @@
 import { cafe } from "@/data/site";
-import { photo } from "@/lib/images";
 
 /** Data terstruktur (schema.org) supaya info cafe mudah dibaca mesin pencari */
 export function cafeSchema() {
@@ -9,10 +8,10 @@ export function cafeSchema() {
     name: cafe.name,
     description: cafe.taglineSecondary,
     slogan: cafe.tagline,
-    url: "https://kopicuy.example",
+    url: "https://kopi-cuy.vercel.app",
     telephone: `+${cafe.whatsapp.number}`,
     email: cafe.email,
-    image: photo("1517248135467-4c7edcad34c4", 1200),
+    image: "https://kopi-cuy.vercel.app/cafe.jpg",
     priceRange: "Rp 20.000 - Rp 45.000",
     servesCuisine: ["Coffee", "Indonesian", "Western", "Dessert"],
     address: {
@@ -58,7 +57,7 @@ export function productSchema(item) {
       price: item.price,
       priceCurrency: "IDR",
       availability: "https://schema.org/InStock",
-      url: `https://kopicuy.example/menu/${item.slug}`,
+      url: `https://kopi-cuy.vercel.app/menu/${item.slug}`,
     },
   };
 }
